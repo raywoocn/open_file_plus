@@ -378,7 +378,7 @@ public class OpenFilePlusPlugin implements FlutterPlugin, MethodCallHandler, Act
             case "z":
                 return "application/x-compress";
             case "zip":
-                return "application/x-zip-compressed";
+                return "application/zip";
             default:
                 return "*/*";
         }
